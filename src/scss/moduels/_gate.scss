@@ -1,0 +1,9 @@
+.gate{
+    padding: 90px 0;
+    background-color: var(--color-4);
+    .gate-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

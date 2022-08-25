@@ -1,0 +1,36 @@
+.footer{
+    background-color: var(--color-2);
+    padding: 70px 0;
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-area{
+            p {
+                font-size: 11px;
+                line-height: 20px;
+                font-weight: 500;
+                color: var(--color-5);
+                margin-bottom: 0;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin-left: 20px;
+               
+            }
+        }
+        .back-area{
+            a {
+                font-size: 11px;
+                line-height: 20px;
+                font-weight: 500;
+                color: var(--color-5);
+                text-decoration: none;
+                text-transform: uppercase;  
+            }
+            img {
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.contact-section{
+    padding-top: 115px;
+    padding-bottom: 60px;
+    form{
+        input#disabledTextInput {
+            font-size: 12px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: var(--color-1);
+            background-color: var(--color-4);
+            border: 0;
+            font-weight: 500;
+        }
+        .form-control:focus {
+            background-color: var(--color-4);
+            outline: 0;
+            box-shadow:none;
+        }
+        textarea#exampleFormControlTextarea1 {
+            font-size: 12px;
+            line-height: 30px;
+            border: 0;
+            background-color: var(--color-4);
+            font-weight: 500;
+
+        } 
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 100px;
+        font-weight: 800;
+        color: var(--color-1);
+        margin-bottom: 0;
+       
+    }
+    .link-area{
+        span{
+            font-size: 12px;
+            line-height: 20px;
+            color: var(--color-1);
+            font-weight: 500;
+            margin-top: 30px;
+            display: inline-block;  
+        }
+    }
+    .icon-area{
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                display: inline-block;
+                a{
+                    text-transform: uppercase;
+                    color: var(--color-2);
+                    font-size: 20px;
+                    padding-right: 16px;
+                    padding-left: 16px;
+                }
+            }
+        }
+    }  
+}

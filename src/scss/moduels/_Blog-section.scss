@@ -1,0 +1,41 @@
+.Blog-section{
+    background-color: var(--color-4);
+    padding: 115px 0;
+    .blog-content{
+        .img-area{
+            position: relative;
+            cursor: pointer;
+            &:hover .overly{
+                opacity: 1;
+            }
+            .overly {
+                position: absolute;
+                top: 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--color-3);
+                opacity: 0;
+                @include tranision();
+                h3{
+                    margin: 0;
+                }
+            }
+        }
+        .text-area{
+            margin-left: 15px;
+            h5 {
+                margin: 30px 0;
+            }
+            span {
+                font-size: 12px;
+                line-height: 30px;
+                font-weight: 500;
+                color:var(--color-2);
+                margin-bottom: 45px;
+            }
+        }
+    }
+}
